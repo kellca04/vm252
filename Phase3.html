@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Phase 3 - Vm252 Debugger</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html">Vm252 Debugger</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="Phase1.html">Phase 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Phase2.html">Phase 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Phase3.html">Phase 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Phase4.html">Phase 4</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Phase5.html">Phase 5</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content-wrapper">
+    <h1>Phase 3 - Vm252 Debugger</h1>
+
+    <div class="container">
+      <div class="phase-content">
+        <p><strong>Changes from phase 2 to phase 3:</strong><ul>
+          <div class="divider"></div>
+          <li>Added the feature for the user to upload a file from the computer and for the file to display line-by-line in the text box on the top right.
+          </li>
+          <div class="divider"></div>
+          <li>
+            Added functionality to run the debugger on an uploaded file.
+          </li>
+          <div class="divider"></div>
+          <li>
+            Added functionality to the “Pause” and “Resume” buttons.
+          </li>
+          <div class="divider"></div>
+          <li>
+            Added functionality to go through the debugging process single-step
+          </li>
+          <div class="divider"></div>
+          <li>
+            Added functionality to display the contents of memory as a program runs.
+          </li>
+      </div>
+
+      <div class="images">
+        <label for="image-dropdown">Select an image:</label>
+        <select id="image-dropdown" onchange="updateImage()">
+          <option value="" selected disabled hidden>Select an option</option>
+          <option value="images\phase3\gui.png">Updated GUI as of Phase 3</option>
+          <option value="images\phase3\open.png">Open file functionality as of Phase 3</option>
+          <option value="images\phase3\display.png">Display opened file in text box</option>
+        </select>
+
+        <div id="selected-image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
