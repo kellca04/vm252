@@ -151,7 +151,7 @@ h1 a:hover {
   margin: 5px;
   border: 1px solid #ddd;
   border-radius: 50%;
-  box-shadow: 0 8px 16px rgba(128, 0, 128, 0.8);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
 }
 
 .members-list figcaption {
