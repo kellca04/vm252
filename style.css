@@ -120,3 +120,40 @@ h1 a {
 h1 a:hover {
   color: #ffffff; 
 }
+
+
+.user-container {
+  width: 60%;
+  background-color: #333333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  padding: 10px 5%;
+  border-radius: 10px;
+}
+
+.members-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.members-list figure {
+  margin: 10px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.members-list img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  box-shadow: 0 8px 16px rgba(128, 0, 128, 0.8);
+}
+
+.members-list figcaption {
+  margin-top: 15px; 
+}
